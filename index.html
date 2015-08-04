@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Patra's Instagram Photos</title>
+
+
+	<script src="script/jquery-1.8.1.min.js" type="text/javascript"></script>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="script/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="script/slick/slick-theme.css"/>
+    	<script src="script/slick/slick.js"></script>
+
+	<style type="text/css">
+		body{
+			background: royalblue;
+		}
+		.fade {
+		    overflow:hidden;
+		    width:100%;
+		}
+		.panes{
+		    list-style:none;
+		    position:relative;
+		    width:100%; /* Number of panes * 100% */
+		    overflow:hidden; /* This is used solely to clear floats, it does not add functionality. */
+		        
+		    -moz-animation:carousel 30s infinite;
+		    -webkit-animation:carousel 30s infinite;
+		    animation:carousel 30s infinite;
+		}
+		.panes > li{
+		    position:relative;
+		    float:left;
+		    width:20%; /* 100 / number of panes */
+		}
+		.fade img{
+		    display:block;
+		    width:100%;
+		    max-width:100%;
+		}
+		.fade h2{
+		    font-size:1em;
+		    padding:0.5em;
+/*		    position:absolute;*/
+		    right:10px;
+		    bottom:10px;
+		    left:10px;
+		    text-align:center;
+		    color:#FF0000;
+		    background-color:rgba(0,0,0,0.75);
+		}
+		}
+
+	</style>
+</head>
+	<body>
+		<script src="script/correct_script.js" type="text/javascript"></script>
+		<script src="script/carousel_angular.js"></script>
+
+				<div class="fade">					  
+					<div id="0"></div>
+					<div id="1"></div>
+					<div id="2"></div>
+					<div id="3"></div>
+					<div id="4"></div>
+					<div id="5"></div>
+					<div id="6"></div>
+					<div id="7"></div>
+					<div id="8"></div>
+					<div id="9"></div>
+					<div id="10"></div>
+					<div id="11"></div>
+					<div id="12"></div>
+					<div id="13"></div>
+					<div id="14"></div>
+					<div id="15"></div>
+				</div>
+	</body>
+</html>
