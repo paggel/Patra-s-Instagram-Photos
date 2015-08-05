@@ -1,6 +1,6 @@
 $(document).ready(function(){
 		$.ajax({
-		    url :"https://api.instagram.com/v1/media/search?access_token=36936465.1fb234f.755362de76fc4c63a6f8932fb315a011&lat=38.225177&lng=21.747078&distance=5000",
+		    url :"https://api.instagram.com/v1/media/search?access_token=MYTOKEN&lat=38.225177&lng=21.747078&distance=5000",
 		    jsonp: "callback",
 		    dataType :"jsonp",
 		    success : function(instagramres){
